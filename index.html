@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./style.css" />
-    <link
-      rel="icon"
-      href="https://cdn-icons-png.flaticon.com/512/4087/4087669.png"
-    />
-    <title>مؤشر وزن الجسم</title>
-    <script defer src="./script.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <h2>!اضغط علي</h2>
-      <section>
-        <input id="weight" type="number" placeholder="الوزن بالكيلوجرام" />
-        <input id="height" type="number" placeholder="الطول بالمتر" />
-        <div id="result"></div>
-        <button>احسب</button>
-      </section>
-    </div>
+    <h2>
+      <button onclick="alert(status(BMI(80, 1.8)))">CLICK</button>
+    </h2>
+
+    <form>
+      <input type="number" id="weight" placeholder="enter the weight" />
+      <input type="number" id="height" placeholder="enter the height" />
+    </form>
+
+    <script src="./script.js"></script>
   </body>
 </html>
