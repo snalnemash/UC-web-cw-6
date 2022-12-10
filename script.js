@@ -17,7 +17,7 @@ function status(bmi) {
 }
 
 function calculate() {
-    document.getElementById(...).value
+  document.getElementById("CLICK").value;
 }
 let result = weight / (height * height);
 let result = weight / (height * height);
